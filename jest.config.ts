@@ -1,4 +1,4 @@
-const nextJest = require('next/jest')
+import nextJest from 'next/jest.js';
 
 const createJestConfig = nextJest({
     // use this option to enable/disable TypeScript support
@@ -12,8 +12,9 @@ const createJestConfig = nextJest({
 })
 
 // Add any custom configs to be used by Jest below
+/** @type {import('jest').Config} */
 const customJestConfig = {
-    setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+    setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
     moduleNameMapper: {
         // Handle module aliases for Next.js
         "^@/app/(.*)$": "<rootDir>/src/app/$1",
@@ -22,7 +23,9 @@ const customJestConfig = {
         '^@/lib/(.*)$': '<rootDir>/src/lib/$1',
         '^@/util/(.*)$': '<rootDir>/src/util/$1',   
     },
-    testEnvironment: 'jest-enviroment-jsdom',
+    // testEnvironment: 'jest-enviroment-jsdom',
+    preset: 'ts-jest',
+    verbose: true,
 }
 
 // Ensure next/jest can load the async Next.js config

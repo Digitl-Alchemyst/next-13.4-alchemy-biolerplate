@@ -23,11 +23,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@/c/*": ["./components/*"],
-      "#/*": ["./public/*"],
-      
+      "@/c/*": ["./src/components/*"],
+      "@/h/*": ["./src/hooks/*"],
+      "@/l/*": ["./src/lib/*"],
+      "@/s/*": ["./src/store/*"],
+      "@/u/*": ["./src/util/*"],
+      "#/*": ["./public/*"],      
     }
   },
-  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts", "types.d.ts"],
   "exclude": ["node_modules"]
 }
