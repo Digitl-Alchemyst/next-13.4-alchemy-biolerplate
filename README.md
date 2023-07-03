@@ -1,3 +1,36 @@
+<h1><ul><b>
+Next.js 13.4 BiolerPlate Base
+</b></ul></h1>
+
+###
+
+            => Basic Biolerplate for Next.js projects using Typescript, Tailwind; with testing features from Jest & React Testing Library
+
+<br>
+
+<h2><ul><b>Features</b></ul></h2>
+
+<h4>
+    Testing<br>
+        => Jest <br>
+        => React Testing Library <br>
+    Commits<br>
+        => <br>
+    Imports<br>
+        => @ = ./src <br>
+        => # = ./public <br>
+    Backend<br>
+        => <br>           
+    Datamanagement<br>
+        => <br>
+    Authentication?<br>
+        => <br>
+</h4>
+
+<h3>
+<ul><b>How to use</b></ul>
+</h3>
+
 ## Getting Started
 
 ### Install Dependencies
@@ -12,9 +45,9 @@ A README page runs on [http://localhost:3000](http://localhost:3000) in your bro
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font. As a result the SWR compiler must be used & babel cannot be used.
 
 
-<h2>
+<h1>
 Testing
-</h2>
+</h1>
 
 This project uses [Jest](https://github.com/jestjs/jest) and [React Testing Library](https://github.com/testing-library) for testing of components, libraries, utilties & application pages
 
