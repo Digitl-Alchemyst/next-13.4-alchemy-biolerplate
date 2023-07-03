@@ -29,6 +29,7 @@ This project uses [Jest](https://github.com/jestjs/jest) and [React Testing Libr
 
     npm install --save-dev jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
 
+## **Testing Commands**
 #### `npm test`
 
 Runs the `jest` command; which runs all staged tests
