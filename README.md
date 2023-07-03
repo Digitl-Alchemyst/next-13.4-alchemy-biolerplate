@@ -1,20 +1,15 @@
 ## Getting Started
 
-First, run the development server:
+### Install Dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+    npm i
+### Start Dev Enviroment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    npm run dev
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A README page runs on [http://localhost:3000](http://localhost:3000) in your browser. This will eventually contain more in depth documentation.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font. As a result the SWR compiler must be used & babel cannot be used.
 
 
 <h2>
@@ -30,6 +25,9 @@ This project uses [Jest](https://github.com/jestjs/jest) and [React Testing Libr
     Testing Library React 14.0.0
     Testing Library Jest-dom 5.16.5
 
+### Install Dependancies
+
+    npm install --save-dev jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
 
 #### `npm test`
 
