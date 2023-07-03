@@ -2,6 +2,9 @@
   "name": "next-13.4-biolerplate",
   "version": "0.1.0",
   "private": true,
+  "repository": "git@github.com:",
+  "author": "Digitl Alchemyst <digitalalchemiststudios@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
