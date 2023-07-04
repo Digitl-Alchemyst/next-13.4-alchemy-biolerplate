@@ -17,12 +17,6 @@ Basic Biolerplate for Next.js projects using Typescript, Tailwind; with testing 
     Imports<br>
         => @ = ./src <br>
         => # = ./public <br>
-    Backend<br>
-        => <br>           
-    Datamanagement<br>
-        => <br>
-    Authentication?<br>
-        => <br>
 </h4>
 
 <h3><ul><b>Project State</b></ul></h3>
