@@ -1,6 +1,12 @@
-/** @type {import('next').NextConfig} */
+// @ts-check
+ 
+/**
+ * @type {import('next').NextConfig}
+ **/
 const nextConfig = {
-
-}
-
-module.exports = nextConfig
+  reactStrictMode: true,
+	swcMinify: true,
+	trailingSlash: true,
+  }
+   
+  module.exports = nextConfig

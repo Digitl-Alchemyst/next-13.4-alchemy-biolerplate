@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Banner from '#/Banner.png'
-import Navbar from '@/components/Navbar'
-import TestHook from '@/hooks/testHook'
+import Navbar from '@/c/Navbar'
+import TestHook from '@/h/testHook'
 
 export default function Home() {
   return (
