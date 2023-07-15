@@ -7,7 +7,7 @@ const TestHook = () => {
     const [testBool, setTestBool] = useState(false);
     return (
         <div>
-        <button className='bg-zinc-300 cursor-pointer border border-zinc-600 p-3 rounded-lg my-2' onClick={() => setTestBool(!testBool)}>Change State</button>
+        <button className='bg-zinc-300 cursor-pointer border border-zinc-600 p-3 rounded-lg my-2 neon-rose' onClick={() => setTestBool(!testBool)}>Change State</button>
         <p>Boolean State: {testBool ? "true" : "false"}</p>
         </div>
     );
