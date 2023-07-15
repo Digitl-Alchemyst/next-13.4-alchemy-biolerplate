@@ -1,8 +1,8 @@
 <h1><ul><b>
-Next.js 13.4 BiolerPlate Base
+Next.js 13.4 BoilerPlate Base
 </b></ul></h1>
 
-Basic Biolerplate for Next.js projects using Typescript, Tailwind; with testing features from Jest & React Testing Library
+Basic boilerplate for Next.js projects using Typescript, Tailwind; with testing features from Jest & React Testing Library
 
 <br>
 
