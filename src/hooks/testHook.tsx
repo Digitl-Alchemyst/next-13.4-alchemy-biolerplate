@@ -1,16 +1,19 @@
 'use client'
 
-import React, { useState } from "react";
-// write a use staate hook that will set a boolean value for testBool to false
+import React, { useState } from 'react'
 
 const TestHook = () => {
-    const [testBool, setTestBool] = useState(false);
-    return (
-        <div>
-        <button className='bg-zinc-300 cursor-pointer border border-zinc-600 p-3 rounded-lg my-2 neon-rose' onClick={() => setTestBool(!testBool)}>Change State</button>
-        <p>Boolean State: {testBool ? "true" : "false"}</p>
-        </div>
-    );
-    }
-export default TestHook;
-
+  const [testBool, setTestBool] = useState(false)
+  return (
+    <div>
+      <button
+        className='my-2 cursor-pointer rounded-lg border border-zinc-600 bg-zinc-600 p-3 neon-amber mt-4'
+        onClick={() => setTestBool(!testBool)}
+      >
+        Change State
+      </button>
+      <p className='text-stone-300 mt-3'>Boolean State: {testBool ? 'true' : 'false'}</p>
+    </div>
+  )
+}
+export default TestHook
