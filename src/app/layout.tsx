@@ -5,17 +5,15 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Next.js 13.4 Biolerplate',
-  description: 'Created by Digitl Alchemyst @ Digital Alchemyst Studios',
+  description: 'Created by Digital Alchemyst @ Digital Alchemyst Studios',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={inter.className}>{children}</body>
     </html>
   )
 }
+
+export default RootLayout

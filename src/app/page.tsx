@@ -3,7 +3,7 @@ import Banner from '$/Banner.png'
 import Navbar from '@/c/Navbar'
 import TestHook from '@/h/testHook'
 
-export default function Home() {
+const Home: React.FC = (): JSX.Element => {
   return (
     <div className='bg-zinc-900'>
       <Navbar />
@@ -21,7 +21,7 @@ export default function Home() {
           Commitlint 13.1 + Github Actions 5.1 + Node 16.13 Biolerplate by
           Digitl Alchemyst @ Digital Alchemyst Studios
         </h4>
-        <button className='bg-zinc-300 my-5 cursor-pointer rounded-lg border border-zinc-700 p-3 neon-amber'>
+        <button className='my-5 cursor-pointer rounded-lg border border-zinc-700 bg-zinc-300 p-3 neon-amber'>
           {' '}
           Visit the Github{' '}
         </button>
@@ -33,3 +33,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home

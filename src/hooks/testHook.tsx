@@ -2,18 +2,22 @@
 
 import React, { useState } from 'react'
 
-const TestHook = () => {
+const TestHook: React.FC = () => {
   const [testBool, setTestBool] = useState(false)
   return (
     <div>
       <button
-        className='my-2 cursor-pointer rounded-lg border border-zinc-600 bg-zinc-600 p-3 neon-amber mt-4'
+        className='my-2 mt-4 cursor-pointer rounded-lg border border-zinc-600 bg-zinc-500 p-3 neon-amber'
         onClick={() => setTestBool(!testBool)}
       >
         Change State
       </button>
-      <p className='text-stone-300 mt-3'>Boolean State: {testBool ? 'true' : 'false'}</p>
+      <p className='mt-3 text-stone-300'>
+        Boolean State: {testBool ? 'true' : 'false'}
+      </p>
     </div>
   )
 }
-export default TestHook
+
+export default TestHook;
+
