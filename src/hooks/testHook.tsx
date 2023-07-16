@@ -1,9 +1,9 @@
-'use client'
+'use client';
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const TestHook: React.FC = () => {
-  const [testBool, setTestBool] = useState(false)
+  const [testBool, setTestBool] = useState(false);
   return (
     <div>
       <button
@@ -16,8 +16,7 @@ const TestHook: React.FC = () => {
         Boolean State: {testBool ? 'true' : 'false'}
       </p>
     </div>
-  )
-}
+  );
+};
 
 export default TestHook;
-

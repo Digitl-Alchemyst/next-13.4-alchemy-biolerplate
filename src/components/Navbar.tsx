@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import {
   MagnifyingGlassIcon,
   GlobeAmericasIcon,
   UserIcon,
   Bars3BottomRightIcon,
-} from '@heroicons/react/24/solid'
+} from '@heroicons/react/24/solid';
 
 const Navbar: React.FC = (): JSX.Element => {
   return (
@@ -36,7 +36,7 @@ const Navbar: React.FC = (): JSX.Element => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
 export default Navbar;

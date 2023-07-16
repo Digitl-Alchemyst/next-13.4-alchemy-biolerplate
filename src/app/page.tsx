@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import Banner from '$/Banner.png'
-import Navbar from '@/c/Navbar'
-import TestHook from '@/h/testHook'
+import Image from 'next/image';
+import Banner from '$/Banner.png';
+import Navbar from '@/c/Navbar';
+import TestHook from '@/h/testHook';
 
 const Home: React.FC = (): JSX.Element => {
   return (
@@ -31,7 +31,7 @@ const Home: React.FC = (): JSX.Element => {
         </p>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

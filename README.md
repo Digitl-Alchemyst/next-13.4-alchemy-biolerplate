@@ -2,7 +2,8 @@
 Next.js 13.4 BoilerPlate Base
 </b></ul></h1>
 
-Basic boilerplate for Next.js projects using Typescript, Tailwind; with testing features from Jest & React Testing Library
+Basic boilerplate for Next.js projects using Typescript, Tailwind; with testing
+features from Jest & React Testing Library
 
 <br>
 
@@ -21,15 +22,22 @@ Basic boilerplate for Next.js projects using Typescript, Tailwind; with testing 
 
 <h3><ul><b>Project State</b></ul></h3>
 
-Project version updated for Next.js 13.4.8 [This project will be maintained to remain current with Next.js @latest until otherwise noted.]
-This is ready to use in its current state project is set up with Jest and React Testing Library for code testing, it has been configured to work with type script. Custom imports have been set up but are currently not working within the testing enviroment. Eslint settings still a WOP refining the configs for Jest & Testing Library as well as Typescript. Uses ESLint to parse to Typescript. Sets specific rules for for testing envrioment (files within the __tests__ directory or files with names ending in .spec.js, .test.js, .ts, .jsx, or .tsx). Lots of rule modifications I collected from a few other react projects. Configured Import Resolver to handle custom import settings.<br>
-<br>
+Project version updated for Next.js 13.4.8 [This project will be maintained to
+remain current with Next.js @latest until otherwise noted.] This is ready to use
+in its current state project is set up with Jest and React Testing Library for
+code testing, it has been configured to work with type script. Custom imports
+have been set up but are currently not working within the testing enviroment.
+Eslint settings still a WOP refining the configs for Jest & Testing Library as
+well as Typescript. Uses ESLint to parse to Typescript. Sets specific rules for
+for testing envrioment (files within the **tests** directory or files with names
+ending in .spec.js, .test.js, .ts, .jsx, or .tsx). Lots of rule modifications I
+collected from a few other react projects. Configured Import Resolver to handle
+custom import settings.<br> <br>
+
 <h3>🚀 Tailwind CSS Extensions</h3><br>
 🌈 Neon Shadows
 
-To-Do<br>
-Tailwind CSS Settings<br>
-Add Husky & Commit Error Catching<br>
+To-Do<br> Tailwind CSS Settings<br> Add Husky & Commit Error Catching<br>
 
 <h3><ul><b>How to use</b></ul></h3>
 
@@ -38,20 +46,26 @@ Add Husky & Commit Error Catching<br>
 ### Install Dependencies
 
     npm i
+
 ### Start Dev Enviroment
 
     npm run dev
 
-A README page runs on [http://localhost:3000](http://localhost:3000) in your browser. This will eventually contain more in depth documentation.[COMING_SOON!]
+A README page runs on [http://localhost:3000](http://localhost:3000) in your
+browser. This will eventually contain more in depth documentation.[COMING_SOON!]
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font. As a result the SWR compiler must be used & babel cannot be used.
-
+This project uses
+[`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to
+automatically optimize and load Inter, a custom Google Font. As a result the SWR
+compiler must be used & babel cannot be used.
 
 <h1>
 Testing
 </h1>
 
-This project uses [Jest](https://github.com/jestjs/jest) and [React Testing Library](https://github.com/testing-library) for testing of components, libraries, utilties & application pages
+This project uses [Jest](https://github.com/jestjs/jest) and
+[React Testing Library](https://github.com/testing-library) for testing of
+components, libraries, utilties & application pages
 
 ## **Testing Dependencies**
 
@@ -65,6 +79,7 @@ This project uses [Jest](https://github.com/jestjs/jest) and [React Testing Libr
     npm install --save-dev jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
 
 ## **Testing Commands**
+
 #### `npm test`
 
 Runs the `jest` command; which runs all staged tests
@@ -75,4 +90,5 @@ Runs the `jest` command with `--watch` flag; which runs all tests in watch mode
 
 #### `npm test:coverage`
 
-Runs the `jest` command with `--coverage` flag; which indicates that test coverage information should be collected and reported in the output.
+Runs the `jest` command with `--coverage` flag; which indicates that test
+coverage information should be collected and reported in the output.
